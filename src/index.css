@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter',sans-serif;
+  background-color: #fdfdfd;
+}
+
+@font-face{
+  font-family: 'NeueHassDisplay';
+  src: local("NeueHaasDisplay"), url(./fonts/Inter-Medium.ttf) format(truetype);
+}
+
+@font-face{
+  font-family: 'NeueHassDisplay';
+  src: local("NeueHaasDisplay"), url(./fonts/Inter-SemiBold.ttf) format(truetype);
+}
+
+@font-face{
+  font-family: 'NeueHassDisplay';
+  src: local("NeueHaasDisplay"), url(./fonts/Inter-Bold.ttf) format(truetype);
+}
+
+.primary-fonts{
+  font-family: "NeueHaasDisplay", sans-serif;
+}
+
+.secondary-font{
+  font-family: 'Inter' , sans-serif;
+}
