@@ -28,7 +28,7 @@ body{
   src: local("NeueHaasDisplay"), url(./fonts/Inter-Bold.ttf) format(truetype);
 }
 
-.primary-fonts{
+.primary-font{
   font-family: "NeueHaasDisplay", sans-serif;
 }
 

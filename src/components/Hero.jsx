@@ -31,7 +31,7 @@ const Hero = () => {
                 </button>
             </div>
         </div>
-        <div className="lg:w-[35%] w-72 relative lg:mx-0 mx-auto lg:flex justify-end lg:py-0 py-8">
+        <div className="lg:w-[55%] w-72 relative lg:mx-0 mx-auto lg:flex justify-end lg:py-0 py-8">
             <img src={main} alt="" className="rounded-full lg:w-full"/>
             <img src={sec} alt="" className="rounded-full sm:block hidden lg:w-40 w-1/4 absolute bottom-16 lg:-left-20 -left-10"/>
             <p className="absolute top-10 right-0 rotate-90 text-white font-medium">+75.8%</p>

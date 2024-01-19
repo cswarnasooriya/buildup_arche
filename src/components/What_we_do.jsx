@@ -32,27 +32,27 @@ const What_we_do = () => {
 
 
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 pt-8'>
-                    <span className='bg-[#fffaf4] py-8 px-6 hover:bg-white hover:text-[#fb7a3f]'>
+                    <span className='bg-[#fffaf4] py-8 px-6 hover:bg-white hover:text-[#fb7a3f] cursor-pointer'>
                         < PiDiamondsFourFill className="text-5xl"/>
                         <p className='text-xl text-[#054130] primary-font font-semibold py-8 pb-4'>Interior Design</p>
                         <p className='text-black hover:opacity-90 opacity-70'>Interior design is the art and science of enhancing.</p>
                     </span>
 
-                    <span className='bg-[#fffaf4] py-8 px-6 hover:bg-white hover:text-[#fb7a3f]'>
+                    <span className='bg-[#fffaf4] py-8 px-6 hover:bg-white hover:text-[#fb7a3f] cursor-pointer'>
                         < BsLayersHalf className="text-5xl"/>
                         <p className='text-xl text-[#054130] primary-font font-semibold py-8 pb-4'>Construction</p>
                         <p className='text-black hover:opacity-90 opacity-70'>The techniques, procedures, and materials used during.</p>
                     </span>
 
 
-                    <span className='bg-[#fffaf4] py-8 px-6 hover:bg-white hover:text-[#fb7a3f]'>
+                    <span className='bg-[#fffaf4] py-8 px-6 hover:bg-white hover:text-[#fb7a3f] cursor-pointer'>
                         < FaTree  className="text-5xl"/>
                         <p className='text-xl text-[#054130] primary-font font-semibold py-8 pb-4'>Archetectural</p>
                         <p className='text-black hover:opacity-90 opacity-70'>The process of planning, designing and constructing.</p>
                     </span>
 
 
-                    <span className='bg-[#fffaf4] py-8 px-6 hover:bg-white hover:text-[#fb7a3f]'>
+                    <span className='bg-[#fffaf4] py-8 px-6 hover:bg-white hover:text-[#fb7a3f] cursor-pointer'>
                         < FaRegLightbulb className="text-5xl"/>
                         <p className='text-xl text-[#054130] primary-font font-semibold py-8 pb-4'>Decoration</p>
                         <p className='text-black hover:opacity-90 opacity-70'>The gymnasium was adorned with crepe-paper.</p>
@@ -67,7 +67,7 @@ const What_we_do = () => {
 
             <section className='lg:flex justify-between items-center relative mt-12 lg:p-8'>
                 <div className='flex rounded justify-center'>
-                    <img src={robo} alt="" className='lg:w-full w-60'/>
+                    <img src={robo} alt="" className='lg:w-[650px] w-60'/>
                 </div>
 
                 <div className='lg:w-1/2 lg:py-0 py-20'>
